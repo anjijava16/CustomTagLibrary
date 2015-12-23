@@ -6,11 +6,11 @@
     <short-name>ct</short-name>
     <uri>/WEB-INF/customTag</uri>
     <tag>
-        <name>sum</name>
+        <name>myForm</name>
         <tag-class>com.vekomy.Addition</tag-class>
         <body-content>empty</body-content>
         <info>This Tag Displayes current server date in usser defined format</info>
-        <attribute>
+       <!--  <attribute>
             <name>one</name>
             <required>true</required>
             <description>Provide a display format</description>
@@ -21,6 +21,6 @@
             <required>true</required>
             <description>Provide a display format</description>
             <rtexprvalue>false</rtexprvalue>
-        </attribute>
+        </attribute> -->
     </tag>
 </taglib>
